@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Obligatorio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+          body {
+                background:url(http://i1079.photobucket.com/albums/w515/jerau86/hd_02_zps06260e20.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                }
+                
+        </style>
+       </head>
+    <body>
+            <form>
+          
+                <script src="JQuery.js"></script>
+                <script src="functobliga.js"></script>
+                  <center>
+                      <h1><font face="verdana" color ="white" ><b>PLAY FEEDBACK 3.5</b></font></h1>
+                    <table style="background-color: activecaption" border="2">
+                     <tr>
+                      <td>
+                        <label><font size=5><font face="romana">Nombre</font></label>
+                        <input type="text" id="txtnombre" name="campo"><br>
+                        <label><font size=5><font face="romana">C.I</font></label>
+                        <input type="text" id="txtci" name="campo"><br>
+                        <label><font size=5><font face="romana">Nivel</font></label>
+                        <select name="nivel" id="txtnivel">
+                        <option value="vacio">Elija su nivel</option>
+                        <option value="Basico">Basico</option>
+                        <option value="Intermedio">Intermedio</option>
+                        <option value="Dificil">Dificil</option>
+                        </select>
+                        <input type="button" value="Ingresar" id="btningresar" style="color: blue">
+                       </td>
+                     </tr>
+                    </table>
+                     <input type="button" value="COMENZAR" id="btnListar" style="color: blue" ><br>
+                 </center>
+           </form>
+                <h1><font color ="yellow" >
+                  <span id="minutos">0</span>:<span id="segundos">0</span>
+                  </font>
+                </h1>
+        
+        <div style="font-size:23px" id="divdespliegue"></div>
+            
+         <input type="button"  value="Terminar" id="btnlistar" style="Position:Absolute; left:90%; top:20%"><br>
+            <input type="button"  value="Corregir" id="btncorrecto">
+                <form>
+                 <center>
+                    <table>
+                     <tr>
+                      <td>   
+                          <div style="font-size: 24px" id="resultado"></div>
+                      </td>
+                     </tr>
+                    </table>
+                 </center>
+                </form>
+              </body>
+       
+</html>
+
